@@ -16,12 +16,14 @@ const geistMono = Geist_Mono({
 
 const baumans = Baumans({
   weight: ["400"],
-  variable: "--font-baumans"
+  variable: "--font-baumans",
+  subsets: ['latin']
 })
 
 const saira = Saira({
   variable: "--font-saira",
-  weight: ["400"]
+  weight: ["400"],
+  subsets: ['latin']
 })
 
 export const metadata: Metadata = {
