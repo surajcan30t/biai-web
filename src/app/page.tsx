@@ -1,14 +1,12 @@
 "use client";
 import Hero from "@/components/Hero";
-import Image from "next/image";
-import { ReactLenis, useLenis } from "lenis/react";
+import { ReactLenis } from "lenis/react";
 import Services from "@/components/Services";
 import Technologies from "@/components/Technologies";
 import About from "@/components/About";
 import Teams from "@/components/Teams";
 
 export default function Home() {
-  const lenis = useLenis(({ scroll }) => {});
   return (
     <ReactLenis root>
       <div className="relative flex flex-col min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-baumans)]">
